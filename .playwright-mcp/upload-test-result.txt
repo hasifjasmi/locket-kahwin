@@ -1,0 +1,6 @@
+{
+  "hasPreview": false,
+  "hasCropper": true,
+  "hasError": false,
+  "fileInputValue": "C:\\fakepath\\test-16x9.jpg"
+}

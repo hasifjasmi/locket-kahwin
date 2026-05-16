@@ -1,0 +1,27 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Wedding Locket" [level=1] [ref=e5]
+        - paragraph [ref=e6]: Share your precious moments with the happy couple
+      - generic [ref=e8]:
+        - button "Tap to select a photo to upload" [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]:
+            - generic [ref=e11]: 📸
+            - paragraph [ref=e12]: Tap to upload or drag and drop
+            - paragraph [ref=e13]: JPEG, PNG, or GIF (max 10MB) · Square or 4:3
+        - generic [ref=e14]:
+          - generic [ref=e15]: Add a caption (optional)
+          - textbox "Add a caption (optional)" [ref=e16]:
+            - /placeholder: Write a sweet message...
+          - paragraph [ref=e17]: 0/280
+        - button "Share Photo" [disabled] [ref=e18]
+      - generic [ref=e19]:
+        - link "Live Wall →" [ref=e20] [cursor=pointer]:
+          - /url: /viewer
+        - text: ·
+        - link "Moderator" [ref=e21] [cursor=pointer]:
+          - /url: /moderator
+  - button "Open Next.js Dev Tools" [ref=e27] [cursor=pointer]:
+    - img [ref=e28]
+  - alert [ref=e31]

@@ -1,0 +1,39 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Wedding Locket" [level=1] [ref=e5]
+        - paragraph [ref=e6]: Share your precious moments with the happy couple
+      - generic [ref=e8]:
+        - button "Tap to select a photo to upload" [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]:
+            - generic [ref=e11]: 📸
+            - paragraph [ref=e12]: Tap to upload or drag and drop
+            - paragraph [ref=e13]: JPEG, PNG, or GIF (max 10MB) · Square or 4:3
+        - generic [ref=e14]:
+          - generic [ref=e15]: Add a caption (optional)
+          - textbox "Add a caption (optional)" [ref=e16]:
+            - /placeholder: Write a sweet message...
+          - paragraph [ref=e17]: 0/280
+        - generic [ref=e18]:
+          - generic [ref=e19]: Polaroid border color
+          - generic [ref=e20]:
+            - button "Set border color to White" [ref=e21]
+            - button "Set border color to Cream" [ref=e22]
+            - button "Set border color to Light Pink" [ref=e23]
+            - button "Set border color to Light Blue" [ref=e24]
+            - button "Set border color to Light Green" [ref=e25]
+            - button "Set border color to Gold" [ref=e26]
+            - button "Set border color to Lavender" [ref=e27]
+            - generic "Pick custom color" [ref=e28] [cursor=pointer]:
+              - textbox "Pick custom border color" [ref=e29]: "#ffffff"
+            - generic [ref=e30]: "#FFFFFF"
+        - button "Share Photo" [disabled] [ref=e31]
+      - generic [ref=e32]:
+        - link "Live Wall →" [ref=e33] [cursor=pointer]:
+          - /url: /viewer
+        - text: ·
+        - link "Moderator" [ref=e34] [cursor=pointer]:
+          - /url: /moderator
+  - button "Open Next.js Dev Tools" [ref=e40] [cursor=pointer]:
+    - img [ref=e41]
